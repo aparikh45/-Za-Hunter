@@ -12,6 +12,7 @@
 		3C28BC2D2236C0A300D64CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C28BC2B2236C0A300D64CC9 /* Main.storyboard */; };
 		3C28BC2F2236C0AC00D64CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C28BC2E2236C0AC00D64CC9 /* Assets.xcassets */; };
 		3C28BC322236C0AC00D64CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C28BC302236C0AC00D64CC9 /* LaunchScreen.storyboard */; };
+		3C28BC3A223817AE00D64CC9 /* LocatationsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28BC39223817AE00D64CC9 /* LocatationsDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3C28BC2E2236C0AC00D64CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C28BC312236C0AC00D64CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C28BC332236C0AC00D64CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C28BC39223817AE00D64CC9 /* LocatationsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatationsDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3C28BC272236C0A300D64CC9 /* AppDelegate.swift */,
 				3C28BC292236C0A300D64CC9 /* ViewController.swift */,
+				3C28BC39223817AE00D64CC9 /* LocatationsDetailsViewController.swift */,
 				3C28BC2B2236C0A300D64CC9 /* Main.storyboard */,
 				3C28BC2E2236C0AC00D64CC9 /* Assets.xcassets */,
 				3C28BC302236C0AC00D64CC9 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C28BC2A2236C0A300D64CC9 /* ViewController.swift in Sources */,
+				3C28BC3A223817AE00D64CC9 /* LocatationsDetailsViewController.swift in Sources */,
 				3C28BC282236C0A300D64CC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
