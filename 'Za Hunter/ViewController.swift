@@ -12,6 +12,10 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     @IBOutlet weak var mapView: MKMapView!
+    
+    
+    
+    
     let locationManager = CLLocationManager()
     var region = MKCoordinateRegion()
     var mapItems = [MKMapItem]()
