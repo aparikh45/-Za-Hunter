@@ -79,10 +79,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4z4-bX-tSf">
+                                <rect key="frame" x="152.5" y="546" width="70" height="30"/>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="onDirectionsButtonTapped:" destination="FAP-cg-0og" eventType="touchUpInside" id="t6m-aS-R6d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ENw-x3-iVA" firstAttribute="top" secondItem="z2Z-bM-XMs" secondAttribute="bottom" constant="42" id="4it-B1-eh9"/>
+                            <constraint firstItem="4z4-bX-tSf" firstAttribute="centerX" secondItem="Wjb-S3-mMe" secondAttribute="centerX" id="Fj0-Jk-EJL"/>
                             <constraint firstItem="z2Z-bM-XMs" firstAttribute="centerX" secondItem="Wjb-S3-mMe" secondAttribute="centerX" id="LP8-JZ-JSl"/>
                             <constraint firstItem="ENw-x3-iVA" firstAttribute="centerX" secondItem="Wjb-S3-mMe" secondAttribute="centerX" id="SSY-Sb-98q"/>
                             <constraint firstItem="IU6-uR-0RS" firstAttribute="centerX" secondItem="Wjb-S3-mMe" secondAttribute="centerX" id="dwz-mj-IIy"/>

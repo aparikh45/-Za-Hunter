@@ -32,5 +32,12 @@ class LocatationsDetailsViewController: UIViewController {
         phoneLabel.text = selectedMapItem.phoneNumber
     }
 
+    @IBAction func onDirectionsButtonTapped(_ sender: Any) {
+        let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
+        MKMapItem.openMaps(with: [selectedMapItem], launchOptions: launchOptions)
+    }
+    
+    
+    
 
 }
